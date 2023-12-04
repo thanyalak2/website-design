@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ตัวอย่างที่ 1-1 โครงสร้างพื้นฐานของ CSS</title>
+    <link rel="stylesheet" href="styletext.css">
     <link rel="stylesheet" href="style.css">
     <style>
         h1 {
@@ -40,14 +41,38 @@
         #myID div{ /* 101*/
             font-size: 100pt;
         }
+        body{
+            font-size: 30px;
+        }
+        div{
+            font-size: 1.5em;
+            background-color: aquamarine;
+        }
     </style>
 </head>
 <body>
-    <h1>ตัวอย่างที่ 1-1 โครงสร้างพื้นฐานของ CSS</h1>
+    <span style="font-size: 1rem;">กำหนดค่าขนาดตัวอักษร = 1 rem</span><br>
+    <span style="font-size: 16px;">กำหนดค่าขนาดตัวอักษร = 16 px</span><br>
+    <span style="font-size: 2rem;">กำหนดค่าขนาดตัวอักษร = 2 rem</span><br>
+    <h1 id="myID">ตัวอย่างที่ 1-1 โครงสร้างพื้นฐานของ CSS</h1>
+    <div>
+        ตัวอักษร 1 em = 30 px 30px * 1.5 เท่า = 45px
+        <span style="font-size: 45px;">ตัวอักษรนี้มีขนาด = 45 px</span><br>
+    </div>
+        <div>
+            ตัวอักษรที่เป็นลูกของ div 45px * 1.5 เท่า = 67.5px
+            <span style="font-size: 67.5px;">ตัวอักษรนี้มีขนาด = 67.5 px</span><br>
+            <div>
+                ตัวอักษรที่เป็นลูกของ div<br>
+            </div>
+        </div>
     <div class="myid">
         <p>Lorem ipsum dolor sit amet consectetur adipisicing <span style="background-color: yellow;">elit.</span> Atque reprehenderit praesentium dolor ipsam id deleniti omnis vel veniam quasi impedit consectetur magnam at est in, velit asperiores optio. Voluptates, ea!</p>
     </div>
+    <div>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero exercitationem adipisci voluptas maiores quas molestiae et ipsum ab id eius, cum nemo corrupti itaque ullam error quod dolorem blanditiis obcaecati?</p>
         <h2>การใช้งาน External Style</h2>
+    </div>
+        <h3>ข้อความ Teg H3</h3>
 </body>
 </html>
