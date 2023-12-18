@@ -1,0 +1,66 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@200&family=Kanit:wght@600&display=swap');
+@font-face{
+    font-family: myfont1;
+    src: url("../https://thaifonts.net/fonts/mitr-regular") format("truetype");
+}
+/* body{
+    width: 320px;
+    background-color: #f99;
+    margin: auto;
+} */
+li{
+    font-family: kanit;
+    display: inline;
+    font-weight: normal;
+}
+li a{
+    padding-right: 20px;
+}
+a:link{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+h1{
+    color: blueviolet;
+    font-family: kanit;
+    text-align: center;
+}
+#mainDiv{
+    color: white;
+    background-color: cyan;
+    padding: 50px;
+}
+.first{
+    padding: 30px  15px;
+    background-color: red;
+    border-color: black;
+    border-top-style: solid;
+    border-bottom-style: double;
+    border-left-style: dashed;
+    border-right-style: dotted;
+    margin: 5px;
+}
+.second{
+    padding: 30px;
+    background-color: blue;
+    margin: 15px;
+    box-shadow: 5px 5px 20px black;
+}
+.box{
+    width: 30%;
+    display: inline-block;
+    padding: auto;
+
+}
+/* .box-1{
+
+}
+.box-2{
+
+}
+.box-3{
+
+} */
