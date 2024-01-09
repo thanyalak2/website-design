@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@200&family=Kanit:wght@600&display=swap');
+@font-face{
+    font-family: myfont1;
+    src: url("../font/sarabun/THSarabunNew.ttf") format("truetype");
+}
+ul{
+    text-align: right;
+}
+li{
+    font-family: kanit;
+    display: inline;
+    font-weight:normal;
+}
+li a{
+    padding-right: 20px;
+    color: ghostwhite;
+}
+a:link{
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(54, 98, 112);
+    text-decoration: underline;
+    transition: 200ms;
+}
+h1{
+    color: white;
+    font-family: kanit;
+    text-align: center;
+}
+#mainDiv{
+    color: white;
+    background-color: #BEBEBE;
+    padding: 150px;
+}
+
+.study-text{
+    text-align: center;
+    color: black;
+}
+.blog{
+    background-color: white;
+}
+
+
+.blog-con{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    grid-gap: 2rem;
+    margin: 3rem;
+}
+
+.box-blog-img{
+    display: flex;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.blog-title{
+    margin: 3rem;
+}
+
+.blog-item{
+    width: 500px;
+    height: 450px;
+    background-color:#F5F5F5;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.blog-item img{
+    position: relative;
+    left: 0;
+    top: 0;
+    margin: 0 auto;
+    width: 50%;
+    overflow: hidden;
+    text-align: center;
+}
+
+.blog-item h3{
+    margin-top: 1rem;
+    margin-top: 10%;
+}
+
+.blog-item p{
+    margin: 1rem 0;
+}
+.about-text{
+    text-align: center;
+    color: black;
+}
+.contect-text{
+    text-align: center;
+    color: ghostwhite;
+}
+/* 
+.box{
+    width: 30%;
+    display: inline-block;
+    padding: auto;
+} */
+/* .box-1{
+    
+}
+.box-2{
+
+}
+.box-3{
+
+} */
